@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 2b2547509f89c3b4397aeb563d6ef905
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/AircoHolder.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcc9278478123382d5fd0516457d7239ab515b7d9c80b891bc08790050b8a321
+size 371

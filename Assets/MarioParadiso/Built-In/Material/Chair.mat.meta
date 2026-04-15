@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d102d459eb36ec248809970c50ae25f3
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Chair.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:e19c872fdb602559e716bb63abdea7b05e54d5cf46e701556772d798def3aaab
+size 397

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: cead5a73c06d1f746ae451b49bd58420
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/PaintCan01.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9958599936533748abede4dc484fb96cdc6b8f7c02bc5a77306f6931df270d41
+size 402

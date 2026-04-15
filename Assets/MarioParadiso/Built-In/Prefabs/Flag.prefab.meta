@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7521b198aba3e044d8f1dcbc45462248
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Flag.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:b683bf1c5923f6a0bf95437129a82af81b46a5faf48597cfe3a01360c10f9499
+size 364

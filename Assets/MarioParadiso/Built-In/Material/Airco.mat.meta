@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 179167d3c8270554dbe7b987b7118fae
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Airco.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4759df582098c63d578eb359165eac04d6bcc425a6cf853d14f338542b2fc0a
+size 397

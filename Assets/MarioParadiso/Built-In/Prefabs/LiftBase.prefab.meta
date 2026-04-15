@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 0c258765799bcf3499cd3f19e67140e9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/LiftBase.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1e3681333d9e930cc65755ca77f538505fc52d661d6e552bc400ba90002b3f7
+size 368

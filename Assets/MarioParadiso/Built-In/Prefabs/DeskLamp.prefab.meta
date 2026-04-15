@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: cd36a6a69bd6b5d4ab8360dd08bcaf82
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/DeskLamp.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d126ef1f90f797f10928ed811ce5e591f55dcb5c3675eb6ed72109413484a5e
+size 368

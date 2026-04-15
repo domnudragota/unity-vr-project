@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: c8015938ec7500347a860d30826aab8b
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Light.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:44802a290d1622d1d73f9d65a5f614280413811552b0339740d0fe2996914cb2
+size 397

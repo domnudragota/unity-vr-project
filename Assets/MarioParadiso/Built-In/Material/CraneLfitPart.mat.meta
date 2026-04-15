@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 95b562c5755307843b258f4d3cfd8372
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/CraneLfitPart.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:50a4c8b3db016336c58f03d2d89c0f80d62c40999ddf33b0ec528afb100cf5ec
+size 405

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 79e85267800199d43a7ecd72445968e3
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/CeilingLight.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec3755afa340fd2578425ecb4232c328f8a95961cd96b7202612cfb5911fd33b
+size 372

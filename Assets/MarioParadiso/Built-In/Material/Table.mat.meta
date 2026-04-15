@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: c9bcdc2c409de6848af4080cd54c6389
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Table.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f1609ad6817779572076e70b054c7300857f3765ee44edd16f6763c3e3ac50d
+size 397

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 5efd643db1db3bf4691f69bc76676524
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Archive Cabin.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ff72a843e4c7275f8aa20a509ccc59c3ffbeed0328d684f5210976c371d85a1
+size 373

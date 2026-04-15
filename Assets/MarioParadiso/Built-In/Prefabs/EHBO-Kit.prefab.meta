@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c79a5c2d1a77c0548840240b2ffa6983
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/EHBO-Kit.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:254fc6c2328e5ecf4dddfafa55046c74fd88ea6be262928c87583609b99ed72e
+size 368

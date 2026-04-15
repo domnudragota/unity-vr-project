@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 3f32def698fc7f249abcabc87c6eeb93
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Hammer.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:362f448d433506e1457f4d592f851f899e0abab1002d1ef514d2c14d07903d31
+size 366

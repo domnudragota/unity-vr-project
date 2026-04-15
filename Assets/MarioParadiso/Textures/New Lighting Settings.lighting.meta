@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e6e39af826a98a14782db24641fae0d8
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 4890085278179872738
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Textures/New Lighting Settings.lighting
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7266fa800215e62a6959ff4359fdf4f413db20fde4a61882fdb3ed42e39b860
+size 421

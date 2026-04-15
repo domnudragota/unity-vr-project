@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d8b7b971c3101af469621963a440f8b6
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/ScrewDriver 1.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1768236334b37cf3a5f30ad2f24c020c83fa0eef86d2864504d30256968ebea
+size 405

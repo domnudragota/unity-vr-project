@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e4f962bd655b23e49afb38c006b33081
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/WallWithPaining.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9323c459612538e655b05c7b42dadc9d3432dd5dacc1b8212914b76eab9290ec
+size 407

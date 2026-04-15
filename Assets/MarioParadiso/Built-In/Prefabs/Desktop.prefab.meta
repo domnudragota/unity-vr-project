@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c70a569e86b05db4590d03e4ab57316a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Desktop.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2a94ce651186280fbaef9f414b70e1844757626ab1f90b9247b575dfda57aaa
+size 367

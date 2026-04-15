@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: bab38772eadf448499c642b215968814
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/FuseBox.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9012aee956bd4c1768d5ec67fd2f79aa8a8ac9edfd2b52eac8b9c478a18bfabf
+size 367

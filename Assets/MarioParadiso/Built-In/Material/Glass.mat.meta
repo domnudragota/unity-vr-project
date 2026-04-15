@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 04bf87153ceaef043acad5feef4e4b86
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Glass.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:898e961ced02df8c14b96dbc3b6986482c6adf957155a7f66aa8a39681652bd5
+size 397

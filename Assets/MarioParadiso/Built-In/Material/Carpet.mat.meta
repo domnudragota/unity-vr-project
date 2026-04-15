@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: edb5b7762464b9442a00cddbb2e0e542
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Carpet.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:3284962b47b72cc946986274ae9b42bd7c8c5d11fa30e915e7184b5017e6adc1
+size 398

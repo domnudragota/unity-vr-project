@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 77030a6508f4734419c52c0cb0059b2a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/SprayCan01.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:39ae64bbdddc7574d7a52837bbc6646778cbd2dcdf451030271a60c35967eb1b
+size 402

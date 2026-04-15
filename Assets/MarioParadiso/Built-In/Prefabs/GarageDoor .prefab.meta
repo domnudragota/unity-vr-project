@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 76fb8ddd2097ab943b9ff5d451d16fbe
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/GarageDoor .prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:fac35d4415099ddac0300bfb9648a26794c97e36bcecc7d6709ee9281f9368e0
+size 371

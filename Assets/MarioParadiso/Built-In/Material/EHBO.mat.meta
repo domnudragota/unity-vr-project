@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 500272bf42e54bc49af361664bd5819f
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/EHBO.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:8be38ba2f3610be9b1a66178a37c3db0f000204fa43720bb334a1bb67928c5a9
+size 396

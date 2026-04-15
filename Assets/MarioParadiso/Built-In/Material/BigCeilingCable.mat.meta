@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: cd97c885d262eec4bbd3bd266a7a3af4
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/BigCeilingCable.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:15ee111d1de84a3cf1175d8d7231c91f6a153b6f3ac7577f942dad43d0aea15b
+size 407

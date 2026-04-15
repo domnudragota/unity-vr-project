@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d218b4ad137b10b4f8e09ec2f788bddc
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/JerryCan.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f80782dc06ad6b2fa9687d8675a60c0599cce8c9bf5d65b40a007c4f551332d
+size 400

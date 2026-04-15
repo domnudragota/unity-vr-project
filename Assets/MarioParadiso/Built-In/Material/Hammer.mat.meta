@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: dd9d14447728d2244b5f0147ab3e9735
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Hammer.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ebf8e92be08630486bc0aef291667a8f885ec202e83e11e04c72c8fd01886a3
+size 398

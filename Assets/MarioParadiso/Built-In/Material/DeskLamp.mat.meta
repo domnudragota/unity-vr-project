@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 966ad46d2b2fe9e4ea39ed0648fb2ebc
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/DeskLamp.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:52f834c2d1411ee1f488fa25de8cc249998721afd49717532d98764f71610364
+size 400

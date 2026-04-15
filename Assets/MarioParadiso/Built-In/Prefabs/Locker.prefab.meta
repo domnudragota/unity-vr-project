@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 640d95d1723864f429660631a5c301e9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Locker.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:45035f213c5f7f0e32a129b49af5738398b04bf85180029a342355461277928a
+size 366

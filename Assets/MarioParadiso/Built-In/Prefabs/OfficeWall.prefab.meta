@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 4b6c58405a82d5546a1cd49afd8a35b0
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/OfficeWall.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:0448ada12714ed7d1119cd1ff634453c1b97a5bea4bd5fa851060bad36c29b17
+size 370

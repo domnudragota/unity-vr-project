@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 6bdedbd67bf9cb244adaa4b77170c872
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/CardboxBase.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9316bb913d6fee328bd7d045398e8ff6b06d6e8669b9079ef30cf4f7f82c6c23
+size 371

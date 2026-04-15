@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: d02557a395ab28f4d9f2aa9f1274d3b0
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/WorkBench.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:97812744ea1be077c27d5e9fff4d810433c9f5a5bffcc42e8da08ac01b0e7e13
+size 369

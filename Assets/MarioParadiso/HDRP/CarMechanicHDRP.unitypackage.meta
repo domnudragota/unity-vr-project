@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a8819389f1128384f83edc2053ccdb73
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/HDRP/CarMechanicHDRP.unitypackage
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a4291da392dc4a9feee0dc0438e08774e2455e709cbdb540b7fbc0d6e2f95ce
+size 370

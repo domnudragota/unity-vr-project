@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: de6cc1e78b80f38449f02cbbe07090d1
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/PowerBoxLift.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:07ce7cc4077cee0dfbd202e88b0f3c3ea3b7b3f13a24cf3ad4fec5ea24a107b7
+size 404

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6ce68535ec2161e45adc8cae547b71b5
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Radio.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:075ff481d60e17dd11481f553bacf89d8e1c97eecf077b765bec611ab7328c8d
+size 397

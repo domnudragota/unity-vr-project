@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b07e6175687a66e418e0e9304e45ca3e
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/DartBoard.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b90aa007414ae6a8779227f34da4b5b6d8ae52cd889823bb72d72894917c65c
+size 401

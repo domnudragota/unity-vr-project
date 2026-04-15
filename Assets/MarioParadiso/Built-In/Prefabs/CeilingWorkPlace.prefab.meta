@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 5f1927c0dac918340a910a0dd97d4f18
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/CeilingWorkPlace.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:b08d8ccd922a5f0c62666933feaf78f761f1f3ab585d5b823ec38791b753f0ef
+size 376

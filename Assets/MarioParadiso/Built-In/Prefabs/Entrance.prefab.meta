@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 5f216582f46c265458cbdb07c1f4e6e7
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Entrance.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:448b9e70b1194eda57a9c71ddb4f4aaf293a5a45432873fdd97a0fc02252d16d
+size 368

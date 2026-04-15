@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b95d92b245b07dd4fa64838a4abcc3dd
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/ScrewBox.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd6ae59426d78319fc351e2d7f8339b501261e2e953aaa980f05a103b52e7089
+size 400

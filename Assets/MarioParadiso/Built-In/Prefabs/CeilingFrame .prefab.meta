@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: d277f8919f7501a498cfe68c12483515
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/CeilingFrame .prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:6231bd41292ea91b0820e4973b380228fb12c3e0c20dd9540bb95b143c3527a5
+size 373

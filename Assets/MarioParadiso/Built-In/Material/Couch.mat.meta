@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 2c705d3a37a5eb04b895bafa7f2fa596
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Couch.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9f2110cdb90df47585081e0d97b69a0240a2eef9d2edfd3d2d324bc0cc36fa7
+size 397

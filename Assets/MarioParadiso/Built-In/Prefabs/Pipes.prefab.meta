@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7d6e8c5633c251642b7df202e1d6773c
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Pipes.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:4388e6d4abf9d116299804f5544b39f6240534e908a626cfa0bf2e3a745c076e
+size 365

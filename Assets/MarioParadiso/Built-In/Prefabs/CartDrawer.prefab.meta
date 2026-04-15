@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: af3dae4ab753eee4d9e35a1f40670b83
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/CartDrawer.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:407a8742c884c787dd9a1012bb07b5221665e01818566da80228ce74267703bf
+size 370

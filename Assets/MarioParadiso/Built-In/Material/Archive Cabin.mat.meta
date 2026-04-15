@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 3c02e55ebda9fcb4597a3ac43f59533f
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Archive Cabin.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b30998f024b2af55e6db7d2a7b0e049d431992935c3f8e5a9c69c8c4a64a759
+size 405

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ea36895c3c21ce241a4f54e56a03f333
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/DartBoard.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:90633ec544c79eac8f5706aea59ebb3c500df62c70bc40ce95a63fc8769f73ac
+size 369

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 2cdb5f24752568f4492d0fe608f0e4aa
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/PostIt.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e4195c572db1235d1803b81405f5fb33be22d82186b9e4175a65246ec3cdd44
+size 366

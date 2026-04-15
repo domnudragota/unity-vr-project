@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: cd7b9a6ef595a2e46a343eed5d787e62
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/TireHolder.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9288568ce3303f73ce74b87be0ce13e1f994ae3888550ddc4cb4526c374fdc47
+size 370

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0bcf4451d0047be498a52f36422b5427
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Phone.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d64c0915061117cc5b07feb7608e8292f183b24429fa00ab676ff35c400fe88
+size 397

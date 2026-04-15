@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 96a7748d3eafe0d4e99fae0db35de1a1
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/Pillar.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f173db46b69fee893a38e20a36459e181dd820c0298ef5d96f991ea88770949
+size 398

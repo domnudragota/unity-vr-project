@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 3c22223a3a05ff24886ce467659bf2f8
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/URP/CarGarageURP.unitypackage
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:20a93956a5e16bfcfdbb42504013aef792e9cdbb7e93130de311571d0f71fa98
+size 366

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b2224441659607340bf83137a8bd3501
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/ExitSign.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0457ec7330de258d1a2012c02acb141edb1d51998eeb05d79982d1a48d130e9
+size 368

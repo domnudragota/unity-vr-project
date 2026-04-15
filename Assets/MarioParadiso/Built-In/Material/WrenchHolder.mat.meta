@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 1420179476720bd4da146078e15d2424
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/WrenchHolder.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c8de8b5b5b98f015ebbbd5b6ca1f13525efa446877571116e086bfa9d47348d
+size 404

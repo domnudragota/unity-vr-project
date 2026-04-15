@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 57fbbade3fda13d458617578f5ac5275
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/AirCompressor.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cb6d569f97e8cf99402daa54a9a581bfe3289058d83ab92fb7cca6c63ea8ddb
+size 373

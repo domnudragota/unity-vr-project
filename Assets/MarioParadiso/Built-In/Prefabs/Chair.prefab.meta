@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 46fec6ad34b7dc84e90fa15d26348903
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Chair.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c039333b80447cf9715da7b8a373ec38a20dd4ae50855e451cba4d1f8c3d355
+size 365

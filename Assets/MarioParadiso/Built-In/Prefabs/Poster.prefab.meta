@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c89e44ee04987de4fba57ed5272ebe97
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Poster.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:f65faba89660cb2d76b055f989f81caaea8180b5ce838f509d4e9be76d7e90d2
+size 366

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ffad843c9bd93c4449c02f8eb578181e
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Info/Thank you.pdf
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe1bd817282394fbd3ca3782904bda2fe6319dc2210ccc4e159918d19d5305ec
+size 355

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 1a0bb83dc2d64bd4d8589a77e00d8f10
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/TireHolder.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:18c4dd8319072b538df2c509dd59e2ae5516beb065f289506923f69ad0b7df4a
+size 402

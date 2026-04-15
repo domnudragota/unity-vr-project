@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: e743797b6479742458f28f17f0431760
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Radio.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f9aabdac3f2f93ab98e9ecf5a6b609ed309c445a6eae0ef573e32409b9591ec
+size 365

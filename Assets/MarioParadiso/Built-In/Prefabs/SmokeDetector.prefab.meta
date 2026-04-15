@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a3d48197a4df7a141b01d43ad2112450
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/SmokeDetector.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b377b333550f490595b0b6b540f538f1ba2196be33dacb3eac63c003019056a
+size 373

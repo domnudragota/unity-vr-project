@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 7e1ca57341a96224db69f6cf9f23c521
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/NoSmoking.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:56afd803fb8d3e802fff6b9ae07131092bd902a91e1086e7650ebc502020f1ea
+size 369

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: fe2ea879d690d92409cb71468beee2e3
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/ExitSign.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:35813331728447c0017cd6b314b223fb27e9e0c0667e9c56acabf3f28e636e1b
+size 400

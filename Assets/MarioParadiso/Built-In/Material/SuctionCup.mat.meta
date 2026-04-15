@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 29ecd56012223cf47a5e867e0ba322a6
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/SuctionCup.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:221c2fa3aaac972154e3c5b5fdba72a79044605d7fb88bfc723b6ae3830c3dae
+size 402

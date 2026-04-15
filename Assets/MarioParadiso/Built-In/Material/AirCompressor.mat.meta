@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 24b8e0fff24e8eb438017daafca1e228
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/AirCompressor.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:105adcb2fe5afdcc1fb418d7252800ca8d0eafd957c24cc28410d1570e6bc577
+size 405

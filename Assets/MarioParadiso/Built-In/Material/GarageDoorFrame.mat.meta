@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 80634611614f9a9408c1603f80874192
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/GarageDoorFrame.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:d30ed185c0f6d1471d880f3ecbc631ab52fb391cbab8d7ede3988069beb6dcf2
+size 407

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: d36b15c771ce19849a24be571e743939
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/LightSwitch 1.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:e60f149ce1ac57d1bce730dec54bec6df5f24b6176891baaee27d7c2399ef381
+size 373

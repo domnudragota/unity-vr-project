@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a2baa21ab14108f4db09472f90efd361
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/DoorFrame.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:7125e60b7b0bf024da1bf00800b1a3f681adb56c7f55b601216246bb302a9951
+size 369

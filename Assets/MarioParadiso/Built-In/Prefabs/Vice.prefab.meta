@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 1038aa4bb2d5bdd4e9871becf9316164
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Vice.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cf66ab3e0b20d1e457fafb24a6beff4fc00b3f0d36638f7918a45936af7f6d2
+size 364

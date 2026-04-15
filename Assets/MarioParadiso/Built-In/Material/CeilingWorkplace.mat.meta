@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 154a924a90779554b840e966ce3eeb5c
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/CeilingWorkplace.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:553079257b4dcd4c6a4d4fd2e61afb6ddce59677ef1efbac1f5b2b19aaef3ebe
+size 408

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 21b111f2f6115fd469bec2b5c8fb9e83
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Carpet.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4761bee0a5b338c96214e5e83bdb4e4ff07399ac66b62983e068a98c4a48ba1
+size 366

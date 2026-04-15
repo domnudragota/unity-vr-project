@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a1e6e61bba129b34db1d46ffb3859f6f
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Floor.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a0e587926343adfed6ca30c2c9dd5c378c7010837cc326b0a3440be8840933d
+size 365

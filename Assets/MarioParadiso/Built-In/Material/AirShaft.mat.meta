@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 976587173c77deb439b09ac3f77a1bdd
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/AirShaft.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3227f476782004416beefe17c27dac0edaaf4ce55fa175ef912588e25e0cd65
+size 400

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d0e279b305413fb4aa010c7e55564cc7
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/FireExtinghuisher.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc8e6d9ef8f4fa96a69a8297254a90b40bb516e127701a7358236a203e7527af
+size 409

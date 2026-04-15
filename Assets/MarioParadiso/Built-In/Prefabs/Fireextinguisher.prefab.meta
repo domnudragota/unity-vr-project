@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 28b8bb11de399a44096ebf2d3d590757
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Fireextinguisher.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd67ca9f1f23185dcf77aa6fc29dee82e9dfc4b2efffd4088921df39e78fc977
+size 376

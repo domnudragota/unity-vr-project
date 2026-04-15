@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: e67b9277b249fed4ca822cf66e6e6804
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/BigCableCeiling .prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ad971a9f2e830202fac7542d9369212f97f07e8baabbdf94b3cd0ce9c730c9a
+size 376

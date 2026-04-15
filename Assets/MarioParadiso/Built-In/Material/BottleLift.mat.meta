@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 34aaf91043770504eb29784fbbf1f667
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/BottleLift.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:33d95b3e5d960bc72956ba9b9f5885ed5bce1065f706397d83a82627e0b551b8
+size 402

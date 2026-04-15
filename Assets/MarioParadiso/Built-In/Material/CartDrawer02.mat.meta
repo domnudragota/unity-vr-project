@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: dfd9b653e70c27c44a357bc5dd2b5fac
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/CartDrawer02.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:2112c28e4461144d79aadc743126e3eb29733faa2f64b85467f04cc6081117bc
+size 404

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: e3e589160ad69b6458bff4e0f3a21e5f
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/TirerMachine.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:a73c180f505ebb03d3b4898a62476a7f0e2dae93c64c38edd7d66bd435d602f2
+size 372

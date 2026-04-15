@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 5c444a1f1e960fd4eb079c127efb2b46
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Window.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c1edf0c9b6f64912a63359842f25d8bf5faf0ca3a17be29d5f49f05c9966ec6
+size 366

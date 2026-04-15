@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 5b9c013bf66560846987e4d4bf2ab441
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/SuctionCup.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bdd30797c6428f4e1890d98bc06ea7d5f0ce8f78553e68a9358c022e994a331
+size 370

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ab1d6932dd8dd894184aae2bb8c8bdf7
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/CableHolder.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac0e283e4be6fe2a01e0aaa61619efd90bdd5f909564a92f639589f111d2aa5b
+size 403

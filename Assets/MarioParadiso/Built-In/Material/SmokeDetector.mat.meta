@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6394662184acb09409e313442be82c8b
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Material/SmokeDetector.mat
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3d93e97dce7aadf84e899cb90431550d562ea41d5e59c26194178cf13e714e6
+size 405

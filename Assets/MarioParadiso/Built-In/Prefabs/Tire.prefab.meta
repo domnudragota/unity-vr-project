@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: e0d1b161f122b6742bad75aa5f8d021f
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 353008
-  packageName: Car garage shop - Game environment
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/Built-In/Prefabs/Tire.prefab
-  uploadId: 846780
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e82b393b61e5268d777151bda2df365ba1dcebce2f6f8e81c408db690a17da2
+size 364
