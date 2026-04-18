@@ -25,6 +25,7 @@ public class SimpleCarController : MonoBehaviour
     [Header("Car Settings")]
     public float motorTorque = 900f;
     public float brakeTorque = 3000f;
+    public float idleBrakeTorque = 150f;
     public float maxSteerAngle = 18f;
     public float maxSpeedKmh = 60f;
 
@@ -34,7 +35,7 @@ public class SimpleCarController : MonoBehaviour
     public float steerResponseSpeed = 30f;
 
     [Header("Center Of Mass")]
-    public Vector3 centerOfMassOffset = new Vector3(0f, -1.05f, 0f);
+    public Vector3 centerOfMassOffset = new Vector3(0f, -1.15f, 0f);
 
     private Rigidbody carRigidbody;
 
@@ -44,6 +45,19 @@ public class SimpleCarController : MonoBehaviour
 
     private float currentSteerAngle;
     private Quaternion steeringWheelInitialLocalRotation;
+
+    public float NormalizedSteerInput
+    {
+        get
+        {
+            if (maxSteerAngle <= 0.01f)
+            {
+                return 0f;
+            }
+
+            return Mathf.Clamp(currentSteerAngle / maxSteerAngle, -1f, 1f);
+        }
+    }
 
     private void Awake()
     {
@@ -176,13 +190,27 @@ public class SimpleCarController : MonoBehaviour
             steerResponseSpeed * Time.fixedDeltaTime
         );
 
+        if (Mathf.Abs(currentSteerAngle) < 0.05f)
+        {
+            currentSteerAngle = 0f;
+        }
+
         frontLeftCollider.steerAngle = currentSteerAngle;
         frontRightCollider.steerAngle = currentSteerAngle;
     }
 
     private void ApplyBrakes()
     {
-        float currentBrakeTorque = brakeInput ? brakeTorque : 0f;
+        float currentBrakeTorque = 0f;
+
+        if (brakeInput)
+        {
+            currentBrakeTorque = brakeTorque;
+        }
+        else if (canDrive && Mathf.Abs(throttleInput) < 0.01f)
+        {
+            currentBrakeTorque = idleBrakeTorque;
+        }
 
         if (frontLeftCollider != null) frontLeftCollider.brakeTorque = currentBrakeTorque;
         if (frontRightCollider != null) frontRightCollider.brakeTorque = currentBrakeTorque;
@@ -226,17 +254,4 @@ public class SimpleCarController : MonoBehaviour
             steeringWheelInitialLocalRotation *
             Quaternion.Euler(0f, 0f, steeringWheelAngle);
     }
-
-public float NormalizedSteerInput
-{
-    get
-    {
-        if (maxSteerAngle <= 0.01f)
-        {
-            return 0f;
-        }
-
-        return Mathf.Clamp(currentSteerAngle / maxSteerAngle, -1f, 1f);
-    }
-}
 }

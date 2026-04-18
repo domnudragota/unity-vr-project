@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,32 +6,24 @@ public class SimpleCarEnterExit : MonoBehaviour
     [Header("Car Control")]
     public SimpleCarController carController;
 
-    [Header("Cameras")]
-    public Camera thirdPersonCamera;
-    public Camera cockpitCamera;
+    [Header("XR")]
+    public GameObject xrRigRoot;
+    public Transform xrCamera;
 
-    [Header("Third Person Follow")]
-    public SimpleFreeLookCamera thirdPersonFollowScript;
-    public float reenableFollowDelay = 0.2f;
+    [Header("Car Camera")]
+    public Camera cockpitCamera;
 
     [Header("Points")]
     public Transform entryPoint;
-    public Transform exitPoint;
-    public Transform lookTarget;
     public Transform headAnchor;
+    public Transform exitPoint;
 
-    [Header("Transition")]
-    public float transitionDuration = 0.4f;
-
-    [Header("Input")]
+    [Header("Interaction")]
     public Key toggleKey = Key.E;
+    public float enterDistance = 2.0f;
 
     private bool isInsideCar = false;
-    private bool isTransitioning = false;
     private bool keyWasPressedLastFrame = false;
-
-    private Coroutine reenableCoroutine;
-    private Coroutine transitionCoroutine;
 
     public bool IsInsideCar => isInsideCar;
 
@@ -43,12 +34,7 @@ public class SimpleCarEnterExit : MonoBehaviour
 
     private void Update()
     {
-        HandleInput();
-    }
-
-    private void HandleInput()
-    {
-        if (Keyboard.current == null || isTransitioning)
+        if (Keyboard.current == null)
         {
             return;
         }
@@ -63,139 +49,32 @@ public class SimpleCarEnterExit : MonoBehaviour
             }
             else
             {
-                EnterCar();
+                TryEnterCar();
             }
         }
 
         keyWasPressedLastFrame = keyPressedNow;
     }
 
-    private void ApplyStateImmediate()
+    private void TryEnterCar()
     {
-        if (thirdPersonCamera != null)
+        if (xrCamera == null || entryPoint == null)
         {
-            thirdPersonCamera.gameObject.SetActive(!isInsideCar);
+            return;
         }
 
-        if (cockpitCamera != null)
+        float distance = Vector3.Distance(xrCamera.position, entryPoint.position);
+
+        if (distance > enterDistance)
         {
-            cockpitCamera.gameObject.SetActive(isInsideCar);
+            return;
         }
 
-        if (thirdPersonFollowScript != null)
-        {
-            thirdPersonFollowScript.enabled = !isInsideCar;
-        }
-
-        if (carController != null)
-        {
-            carController.canDrive = isInsideCar;
-        }
+        EnterCar();
     }
 
     private void EnterCar()
     {
-        if (transitionCoroutine != null)
-        {
-            StopCoroutine(transitionCoroutine);
-        }
-
-        if (reenableCoroutine != null)
-        {
-            StopCoroutine(reenableCoroutine);
-            reenableCoroutine = null;
-        }
-
-        transitionCoroutine = StartCoroutine(EnterCarRoutine());
-    }
-
-    private void ExitCar()
-    {
-        if (transitionCoroutine != null)
-        {
-            StopCoroutine(transitionCoroutine);
-        }
-
-        if (reenableCoroutine != null)
-        {
-            StopCoroutine(reenableCoroutine);
-            reenableCoroutine = null;
-        }
-
-        transitionCoroutine = StartCoroutine(ExitCarRoutine());
-    }
-
-    private IEnumerator EnterCarRoutine()
-    {
-        isTransitioning = true;
-
-        if (carController != null)
-        {
-            carController.canDrive = false;
-        }
-
-        if (thirdPersonFollowScript != null)
-        {
-            thirdPersonFollowScript.enabled = false;
-        }
-
-        if (thirdPersonCamera != null)
-        {
-            thirdPersonCamera.gameObject.SetActive(true);
-        }
-
-        if (cockpitCamera != null)
-        {
-            cockpitCamera.gameObject.SetActive(false);
-        }
-
-        if (thirdPersonCamera != null && entryPoint != null)
-        {
-            thirdPersonCamera.transform.position = entryPoint.position;
-
-            if (lookTarget != null)
-            {
-                Vector3 direction = lookTarget.position - thirdPersonCamera.transform.position;
-                if (direction.sqrMagnitude > 0.001f)
-                {
-                    thirdPersonCamera.transform.rotation = Quaternion.LookRotation(direction.normalized);
-                }
-            }
-        }
-
-        if (thirdPersonCamera != null && headAnchor != null)
-        {
-            Vector3 startPosition = thirdPersonCamera.transform.position;
-            Quaternion startRotation = thirdPersonCamera.transform.rotation;
-
-            Vector3 endPosition = headAnchor.position;
-            Quaternion endRotation = headAnchor.rotation;
-
-            float elapsed = 0f;
-
-            while (elapsed < transitionDuration)
-            {
-                elapsed += Time.deltaTime;
-                float t = Mathf.Clamp01(elapsed / transitionDuration);
-                float smoothT = t * t * (3f - 2f * t);
-
-                thirdPersonCamera.transform.position = Vector3.Lerp(startPosition, endPosition, smoothT);
-                thirdPersonCamera.transform.rotation = Quaternion.Slerp(startRotation, endRotation, smoothT);
-
-                yield return null;
-            }
-        }
-
-        if (thirdPersonCamera != null)
-        {
-            thirdPersonCamera.gameObject.SetActive(false);
-        }
-
-        if (cockpitCamera != null)
-        {
-            cockpitCamera.gameObject.SetActive(true);
-        }
-
         isInsideCar = true;
 
         if (carController != null)
@@ -203,13 +82,19 @@ public class SimpleCarEnterExit : MonoBehaviour
             carController.canDrive = true;
         }
 
-        isTransitioning = false;
-        transitionCoroutine = null;
+        if (xrRigRoot != null)
+        {
+            xrRigRoot.SetActive(false);
+        }
+
+        if (cockpitCamera != null)
+        {
+            cockpitCamera.gameObject.SetActive(true);
+        }
     }
 
-    private IEnumerator ExitCarRoutine()
+    private void ExitCar()
     {
-        isTransitioning = true;
         isInsideCar = false;
 
         if (carController != null)
@@ -217,82 +102,43 @@ public class SimpleCarEnterExit : MonoBehaviour
             carController.canDrive = false;
         }
 
+        if (xrRigRoot != null)
+        {
+            xrRigRoot.SetActive(true);
+        }
+
+        if (xrRigRoot != null && xrCamera != null && exitPoint != null)
+        {
+            Transform xrRigTransform = xrRigRoot.transform;
+
+            Vector3 cameraOffset = xrCamera.position - xrRigTransform.position;
+            xrRigTransform.position = exitPoint.position - cameraOffset;
+
+            Vector3 currentEuler = xrRigTransform.eulerAngles;
+            xrRigTransform.rotation = Quaternion.Euler(currentEuler.x, exitPoint.eulerAngles.y, currentEuler.z);
+        }
+
         if (cockpitCamera != null)
         {
             cockpitCamera.gameObject.SetActive(false);
         }
-
-        if (thirdPersonCamera != null)
-        {
-            thirdPersonCamera.gameObject.SetActive(true);
-        }
-
-        if (thirdPersonFollowScript != null)
-        {
-            thirdPersonFollowScript.enabled = false;
-        }
-
-        if (thirdPersonCamera != null && headAnchor != null)
-        {
-            thirdPersonCamera.transform.position = headAnchor.position;
-            thirdPersonCamera.transform.rotation = headAnchor.rotation;
-        }
-
-        if (thirdPersonCamera != null && exitPoint != null)
-        {
-            Vector3 startPosition = thirdPersonCamera.transform.position;
-            Quaternion startRotation = thirdPersonCamera.transform.rotation;
-
-            Vector3 endPosition = exitPoint.position;
-            Quaternion endRotation;
-
-            if (lookTarget != null)
-            {
-                Vector3 direction = lookTarget.position - exitPoint.position;
-                if (direction.sqrMagnitude > 0.001f)
-                {
-                    endRotation = Quaternion.LookRotation(direction.normalized);
-                }
-                else
-                {
-                    endRotation = exitPoint.rotation;
-                }
-            }
-            else
-            {
-                endRotation = exitPoint.rotation;
-            }
-
-            float elapsed = 0f;
-
-            while (elapsed < transitionDuration)
-            {
-                elapsed += Time.deltaTime;
-                float t = Mathf.Clamp01(elapsed / transitionDuration);
-                float smoothT = t * t * (3f - 2f * t);
-
-                thirdPersonCamera.transform.position = Vector3.Lerp(startPosition, endPosition, smoothT);
-                thirdPersonCamera.transform.rotation = Quaternion.Slerp(startRotation, endRotation, smoothT);
-
-                yield return null;
-            }
-        }
-
-        reenableCoroutine = StartCoroutine(ReenableFollowAfterDelay());
-
-        isTransitioning = false;
-        transitionCoroutine = null;
     }
 
-    private IEnumerator ReenableFollowAfterDelay()
+    private void ApplyStateImmediate()
     {
-        yield return new WaitForSeconds(reenableFollowDelay);
-
-        if (thirdPersonFollowScript != null && !isInsideCar)
+        if (carController != null)
         {
-            thirdPersonFollowScript.enabled = true;
+            carController.canDrive = isInsideCar;
         }
 
-        reenableCoroutine = null;
+        if (xrRigRoot != null)
+        {
+            xrRigRoot.SetActive(!isInsideCar);
+        }
+
+        if (cockpitCamera != null)
+        {
+            cockpitCamera.gameObject.SetActive(isInsideCar);
+        }
     }
 }
