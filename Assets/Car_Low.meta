@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Car_Low.meta
 guid: cc57598d8a9be2847ace10b4c62c27ff
+========
+guid: 0f2437ee89a903b4f8d0c0c79c95880b
+>>>>>>>> origin/main:Assets/CartoonTracksPack1.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

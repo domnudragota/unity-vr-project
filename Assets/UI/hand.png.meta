@@ -1,12 +1,16 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/UI/hand.png.meta
 guid: 8c78f2c438ea4ad48867d30575254394
+========
+guid: 3c4387867b060f447bd3493929ed2d40
+>>>>>>>> origin/main:Assets/MarioParadiso/Textures/CartDrawer01_Albedo.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,10 +41,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
@@ -52,9 +56,13 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
+<<<<<<<< HEAD:Assets/UI/hand.png.meta
   textureType: 8
+========
+  textureType: 0
+>>>>>>>> origin/main:Assets/MarioParadiso/Textures/CartDrawer01_Albedo.png.meta
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -128,3 +136,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353008
+  packageName: Car garage shop - Game environment
+  packageVersion: 1.0
+  assetPath: Assets/MarioParadiso/Textures/CartDrawer01_Albedo.png
+  uploadId: 846780

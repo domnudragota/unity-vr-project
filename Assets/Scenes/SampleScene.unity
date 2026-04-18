@@ -140,11 +140,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.53, y: 1.3631684, z: 0.61}
   m_Center: {x: 0, y: 0.6815842, z: 0}
---- !u!20 &56147975 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 1072287963545446974, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-  m_PrefabInstance: {fileID: 995028336}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &89737606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -299,8 +294,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -322,11 +315,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &163969266
 MeshFilter:
@@ -537,8 +528,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -560,11 +549,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &246176210
 MeshFilter:
@@ -671,8 +658,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -694,11 +679,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &322253638
 MeshFilter:
@@ -1592,22 +1575,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.65000015, y: 2.5, z: 0.5443624}
   m_Center: {x: 0.0000009685755, y: 1.25, z: -0.022181159}
---- !u!1 &594733603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5167925059111895691, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1849126573}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &594733605 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6640002710935096923, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1849126573}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594733603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fa7b4195685c3846be746c74f0ab2f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &654083667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1654,14 +1621,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize2D: {x: 10, y: 10}
+  m_CookieSize: 10
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -1706,7 +1673,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -1802,8 +1769,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1825,11 +1790,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &738614453
 MeshFilter:
@@ -1839,11 +1802,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738614449}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &762394974 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3045453842022857061, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-  m_PrefabInstance: {fileID: 995028336}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &767037220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,8 +1878,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1943,11 +1899,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &767037224
 MeshFilter:
@@ -2242,8 +2196,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2265,11 +2217,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &898739014
 MeshFilter:
@@ -2441,190 +2391,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &971189457 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1271709064156348168, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-  m_PrefabInstance: {fileID: 995028336}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f61eea0b2806a04882692de7c53a7b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleCarController
---- !u!1001 &995028336
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 363085173220344759, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionDistance
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 363085173220344759, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.damper
-      value: 9000
-      objectReference: {fileID: 0}
-    - target: {fileID: 363085173220344759, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.spring
-      value: 42000
-      objectReference: {fileID: 0}
-    - target: {fileID: 363085173220344759, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 4.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 611326512781453220, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114100859265041831, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764875735565548155, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionDistance
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764875735565548155, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.damper
-      value: 9000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764875735565548155, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.spring
-      value: 42000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764875735565548155, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 4.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5569625583489439105, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_Name
-      value: Tocus
-      objectReference: {fileID: 0}
-    - target: {fileID: 6688406657559427505, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 850
-      objectReference: {fileID: 0}
-    - target: {fileID: 6730093329574915147, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: xrCamera
-      value: 
-      objectReference: {fileID: 1176389236}
-    - target: {fileID: 6730093329574915147, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: toggleKey
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 6730093329574915147, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: xrRigRoot
-      value: 
-      objectReference: {fileID: 1094315521}
-    - target: {fileID: 6730093329574915147, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: locomotionRoot
-      value: 
-      objectReference: {fileID: 594733603}
-    - target: {fileID: 6730093329574915147, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: locomotionComponent
-      value: 
-      objectReference: {fileID: 594733605}
-    - target: {fileID: 6780443631083056618, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionDistance
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780443631083056618, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.damper
-      value: 9000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780443631083056618, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.spring
-      value: 42000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780443631083056618, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 4.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 95.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 47.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 162.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.75993913
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.6499943
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -81.082
-      objectReference: {fileID: 0}
-    - target: {fileID: 6962619638875733088, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7970290710304171916, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: enterExitSystem
-      value: 
-      objectReference: {fileID: 1503513594}
-    - target: {fileID: 8026487889201767118, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionDistance
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 8026487889201767118, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.damper
-      value: 9000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8026487889201767118, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SuspensionSpring.spring
-      value: 42000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8026487889201767118, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 4.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112475982848208037, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8824394798157890754, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 8824394798157890754, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6730093329574915147, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1270121662895502277, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1503513594}
-  m_SourcePrefab: {fileID: 100100000, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
 --- !u!65 &1046527308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2722,8 +2488,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2745,11 +2509,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1050184528
 MeshFilter:
@@ -2816,16 +2578,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
---- !u!1 &1094315515 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1849126573}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1094315521 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1849126573}
-  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1118250369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2891,11 +2643,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2000002, y: 2.2, z: 0.5617154}
   m_Center: {x: 0, y: 0, z: 0.0013011995}
---- !u!4 &1176389236 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1849126573}
-  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1214470123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2917,11 +2664,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7, y: 0.4478728, z: 1}
   m_Center: {x: 0, y: 0, z: 0.0000009536743}
---- !u!4 &1235728364 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2096619819787636888, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-  m_PrefabInstance: {fileID: 995028336}
-  m_PrefabAsset: {fileID: 0}
 --- !u!136 &1284412443
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3150,32 +2892,6 @@ CapsuleCollider:
   m_Height: 1.0519706
   m_Direction: 1
   m_Center: {x: 0, y: 0.0000009536743, z: 0}
---- !u!1 &1503513591 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1270121662895502277, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-  m_PrefabInstance: {fileID: 995028336}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1503513594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503513591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efcef5428ebf53f4f843ce607224e6f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleCarEnterExit
-  carController: {fileID: 971189457}
-  xrRigRoot: {fileID: 1094315515}
-  xrCamera: {fileID: 1176389236}
-  cockpitCamera: {fileID: 56147975}
-  entryPoint: {fileID: 762394974}
-  headAnchor: {fileID: 1235728364}
-  exitPoint: {fileID: 1760339100}
-  toggleKey: 17
-  enterDistance: 2
 --- !u!65 &1565598983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3384,8 +3100,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3407,11 +3121,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1692993505
 MeshFilter:
@@ -3463,11 +3175,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.69755745, y: 0.50571895, z: 0.5002131}
   m_Center: {x: -0.000000002092445, y: 0.25762403, z: 0.102997065}
---- !u!4 &1760339100 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6207543048013218291, guid: 77409cf9b52efbe47b05316037d9ca96, type: 3}
-  m_PrefabInstance: {fileID: 995028336}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1828775411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,8 +3251,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3567,11 +3272,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1828775415
 MeshFilter:
@@ -3631,10 +3334,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5167925059111895691, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3718,8 +3417,6 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3741,11 +3438,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1946017594
 MeshFilter:
@@ -4138,4 +3833,3 @@ SceneRoots:
   - {fileID: 1947830075}
   - {fileID: 1849126573}
   - {fileID: 1055432874}
-  - {fileID: 995028336}

@@ -1,9 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Car_Low/Tocus/Materials.meta
 guid: b019a4e95dac36b45a1bab228417e73a
 folderAsset: yes
 timeCreated: 1493452187
 licenseType: Store
+========
+guid: 4f88ec9b15aa5c741a6521f7e8aaa3eb
+folderAsset: yes
+>>>>>>>> origin/main:Assets/Scripts.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/DefaultVolumeProfile.asset.meta
+guid: 34b8399db2fe3624c8e87b5c9a853b3c
+========
 guid: e5189e19e3342b344b371401b9973e52
+>>>>>>>> origin/main:Assets/XR/Settings/OpenXR Package Settings.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

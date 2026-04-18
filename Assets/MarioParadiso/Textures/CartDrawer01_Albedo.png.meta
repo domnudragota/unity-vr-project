@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/UI/hand.png.meta
+guid: 8c78f2c438ea4ad48867d30575254394
+========
 guid: 3c4387867b060f447bd3493929ed2d40
+>>>>>>>> origin/main:Assets/MarioParadiso/Textures/CartDrawer01_Albedo.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +47,7 @@ TextureImporter:
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +58,11 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
+<<<<<<<< HEAD:Assets/UI/hand.png.meta
+  textureType: 8
+========
   textureType: 0
+>>>>>>>> origin/main:Assets/MarioParadiso/Textures/CartDrawer01_Albedo.png.meta
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,7 +121,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
