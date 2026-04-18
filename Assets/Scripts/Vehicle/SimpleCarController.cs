@@ -226,4 +226,17 @@ public class SimpleCarController : MonoBehaviour
             steeringWheelInitialLocalRotation *
             Quaternion.Euler(0f, 0f, steeringWheelAngle);
     }
+
+public float NormalizedSteerInput
+{
+    get
+    {
+        if (maxSteerAngle <= 0.01f)
+        {
+            return 0f;
+        }
+
+        return Mathf.Clamp(currentSteerAngle / maxSteerAngle, -1f, 1f);
+    }
+}
 }

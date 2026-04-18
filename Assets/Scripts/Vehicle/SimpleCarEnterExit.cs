@@ -34,6 +34,8 @@ public class SimpleCarEnterExit : MonoBehaviour
     private Coroutine reenableCoroutine;
     private Coroutine transitionCoroutine;
 
+    public bool IsInsideCar => isInsideCar;
+
     private void Start()
     {
         ApplyStateImmediate();
