@@ -9,8 +9,9 @@
 MemoryCaptures/
 Recordings/
 
-# Visual Studio / JetBrains / Rider
+# Visual Studio / JetBrains / Rider / VS Code
 .vs/
+.vscode/
 .idea/
 *.csproj
 *.sln
@@ -25,6 +26,13 @@ Recordings/
 *.mdb
 *.opendb
 *.VC.db
+*.DotSettings.user
+
+# Backup / temp files
+*.bak
+*.backup
+*.old
+sysinfo.txt
 
 # OS files
 .DS_Store
