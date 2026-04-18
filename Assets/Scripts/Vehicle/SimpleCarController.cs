@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class SimpleCarController : MonoBehaviour
 {
+    [Header("Drive State")]
+    public bool canDrive = true;
+
     [Header("Wheel Colliders")]
     public WheelCollider frontLeftCollider;
     public WheelCollider frontRightCollider;
@@ -15,19 +18,32 @@ public class SimpleCarController : MonoBehaviour
     public Transform rearLeftWheel;
     public Transform rearRightWheel;
 
+    [Header("Steering Wheel Visual")]
+    public Transform steeringWheel;
+    public float steeringWheelMaxRotation = 450f;
+
     [Header("Car Settings")]
-    public float motorTorque = 2500f;
-    public float brakeTorque = 2000f;
-    public float maxSteerAngle = 30f;
+    public float motorTorque = 900f;
+    public float brakeTorque = 3000f;
+    public float maxSteerAngle = 18f;
+    public float maxSpeedKmh = 60f;
+
+    [Header("High Speed Steering")]
+    public float highSpeedSteerAngle = 7f;
+    public float highSpeedKmh = 30f;
+    public float steerResponseSpeed = 30f;
 
     [Header("Center Of Mass")]
-    public Vector3 centerOfMassOffset = new Vector3(0f, -0.5f, 0f);
+    public Vector3 centerOfMassOffset = new Vector3(0f, -1.05f, 0f);
 
     private Rigidbody carRigidbody;
 
     private float throttleInput;
     private float steerInput;
     private bool brakeInput;
+
+    private float currentSteerAngle;
+    private Quaternion steeringWheelInitialLocalRotation;
 
     private void Awake()
     {
@@ -37,15 +53,23 @@ public class SimpleCarController : MonoBehaviour
         {
             carRigidbody.centerOfMass += centerOfMassOffset;
         }
+
+        if (steeringWheel != null)
+        {
+            steeringWheelInitialLocalRotation = steeringWheel.localRotation;
+        }
     }
 
     private void Update()
     {
         ReadInput();
+
         UpdateWheelVisual(frontLeftCollider, frontLeftWheel);
         UpdateWheelVisual(frontRightCollider, frontRightWheel);
         UpdateWheelVisual(rearLeftCollider, rearLeftWheel);
         UpdateWheelVisual(rearRightCollider, rearRightWheel);
+
+        UpdateSteeringWheelVisual();
     }
 
     private void FixedUpdate()
@@ -60,6 +84,11 @@ public class SimpleCarController : MonoBehaviour
         throttleInput = 0f;
         steerInput = 0f;
         brakeInput = false;
+
+        if (!canDrive)
+        {
+            return;
+        }
 
         if (Keyboard.current == null)
         {
@@ -89,12 +118,25 @@ public class SimpleCarController : MonoBehaviour
 
     private void ApplyMotor()
     {
-        if (rearLeftCollider == null || rearRightCollider == null)
+        if (rearLeftCollider == null || rearRightCollider == null || carRigidbody == null)
         {
             return;
         }
 
-        float torque = throttleInput * motorTorque;
+        if (!canDrive)
+        {
+            rearLeftCollider.motorTorque = 0f;
+            rearRightCollider.motorTorque = 0f;
+            return;
+        }
+
+        float currentSpeedKmh = carRigidbody.linearVelocity.magnitude * 3.6f;
+        float torque = 0f;
+
+        if (currentSpeedKmh < maxSpeedKmh)
+        {
+            torque = throttleInput * motorTorque;
+        }
 
         rearLeftCollider.motorTorque = torque;
         rearRightCollider.motorTorque = torque;
@@ -102,15 +144,40 @@ public class SimpleCarController : MonoBehaviour
 
     private void ApplySteering()
     {
-        if (frontLeftCollider == null || frontRightCollider == null)
+        if (frontLeftCollider == null || frontRightCollider == null || carRigidbody == null)
         {
             return;
         }
 
-        float steerAngle = steerInput * maxSteerAngle;
+        float currentSpeedKmh = carRigidbody.linearVelocity.magnitude * 3.6f;
 
-        frontLeftCollider.steerAngle = steerAngle;
-        frontRightCollider.steerAngle = steerAngle;
+        float steerAngleLimit = maxSteerAngle;
+
+        if (currentSpeedKmh >= highSpeedKmh)
+        {
+            steerAngleLimit = highSpeedSteerAngle;
+        }
+        else
+        {
+            float speedLerp = currentSpeedKmh / highSpeedKmh;
+            steerAngleLimit = Mathf.Lerp(maxSteerAngle, highSpeedSteerAngle, speedLerp);
+        }
+
+        if (Mathf.Abs(throttleInput) > 0.1f)
+        {
+            steerAngleLimit *= 0.85f;
+        }
+
+        float targetSteerAngle = canDrive ? steerInput * steerAngleLimit : 0f;
+
+        currentSteerAngle = Mathf.MoveTowards(
+            currentSteerAngle,
+            targetSteerAngle,
+            steerResponseSpeed * Time.fixedDeltaTime
+        );
+
+        frontLeftCollider.steerAngle = currentSteerAngle;
+        frontRightCollider.steerAngle = currentSteerAngle;
     }
 
     private void ApplyBrakes()
@@ -137,5 +204,26 @@ public class SimpleCarController : MonoBehaviour
 
         wheelTransform.position = position;
         wheelTransform.rotation = rotation;
+    }
+
+    private void UpdateSteeringWheelVisual()
+    {
+        if (steeringWheel == null)
+        {
+            return;
+        }
+
+        float normalizedSteer = 0f;
+
+        if (maxSteerAngle > 0.01f)
+        {
+            normalizedSteer = currentSteerAngle / maxSteerAngle;
+        }
+
+        float steeringWheelAngle = -normalizedSteer * steeringWheelMaxRotation;
+
+        steeringWheel.localRotation =
+            steeringWheelInitialLocalRotation *
+            Quaternion.Euler(0f, 0f, steeringWheelAngle);
     }
 }
